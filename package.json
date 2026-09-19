@@ -1,0 +1,14 @@
+{
+  "name": "momentum-os",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "test": "node server/test/api.test.js && node server/test/streakCalculator.test.js"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "email": "athlete1@momentum.os",
+      "passwordHash": "$2a$10$HBS4Xt30ZYA7F0rWUIpKPu8jmCYNTj/BXv1oxytXryg3NECCDSSOm",
+      "created_at": "2026-09-18T10:52:48.184Z"
+    },
+    {
+      "id": "a440547b-ffe6-483f-bca9-48e512373574",
+      "email": "athlete2@momentum.os",
+      "passwordHash": "$2a$10$MTFAJUtzek9y0W6mB2DuTevPBpf.Z31kMP8D3rXjqzTq5JHGUiSJa",
+      "created_at": "2026-09-18T10:52:48.490Z"
+    },
+    {
+      "id": "a1b4f407-c633-4e53-96d4-d3eaaffa8192",
+      "email": "hrishijyo246@gmail.com",
+      "passwordHash": "$2a$10$kwimb7SzgZntCyPCHW/OxeVVenGJAI2OgNyrAqTkc3jQDZn9uC9BS",
+      "created_at": "2026-09-18T11:13:42.485Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "display_name": "Kobe Fan",
+      "created_at": "2026-09-18T10:52:48.184Z"
+    },
+    {
+      "id": "a440547b-ffe6-483f-bca9-48e512373574",
+      "display_name": "Jordan Fan",
+      "created_at": "2026-09-18T10:52:48.491Z"
+    },
+    {
+      "id": "a1b4f407-c633-4e53-96d4-d3eaaffa8192",
+      "display_name": "Hrishi",
+      "created_at": "2026-09-18T11:13:42.485Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6c3cded4-8040-452c-9b06-f3d0692b2531",
+      "user_id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "title": "Morning 5 Mile Run",
+      "description": "Focus on pace and breathing",
+      "due_date": "2026-09-18",
+      "priority": "high",
+      "category": "health",
+      "is_completed": true,
+      "completed_at": "2026-09-18T10:52:48.567Z",
+      "created_at": "2026-09-18T10:52:48.514Z",
+      "updated_at": "2026-09-18T10:52:48.567Z"
+    }
+  ],
+  "habits": [
+    {
+      "id": "86718149-b9ea-4111-b13e-e88d031a5fd4",
+      "user_id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "name": "Read 20 pages",
+      "category": "learning",
+      "frequency_type": "daily",
+      "frequency_value": null,
+      "target_note": "20 pages",
+      "start_date": "2026-09-18",
+      "current_streak": 1,
+      "longest_streak": 1,
+      "is_archived": false,
+      "created_at": "2026-09-18T10:52:48.584Z",
+      "updated_at": "2026-09-18T10:52:48.643Z"
+    }
+  ],
+  "habit_logs": [
+    {
+      "id": "15f2f428-8873-4902-ad24-cb65485e1d9e",
+      "habit_id": "86718149-b9ea-4111-b13e-e88d031a5fd4",
+      "user_id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "log_date": "2026-09-18",
+      "created_at": "2026-09-18T10:52:48.637Z"
+    }
+  ],
+  "weekly_reviews": [
+    {
+      "id": "f4114d19-8e95-4970-8f45-413a27d8d705",
+      "user_id": "952ae714-3866-47d6-a5a6-bcc8b19ded8c",
+      "summary": "Strong commitment on the field, Kobe Fan. You completed 1 of 1 scheduled tasks this past week. Consistency clocked in at 14%, with \"Read 20 pages\" leading the charge at a 1-day streak. True champions don't look for perfection — they look for repetition.",
+      "suggestions": [
+        "Prioritize completing \"Read 20 pages\" early in the morning before fatigue sets in.",
+        "Set clear deadlines for your top 3 tasks daily to keep completion velocity above 80%."
+      ],
+      "stats_snapshot": {
+        "tasks_completed": 1,
+        "tasks_total": 1,
+        "habit_count": 1,
+        "consistency_pct": 14,
+        "best_habit_name": "Read 20 pages",
+        "best_habit_streak": 1,
+        "worst_habit_name": "Read 20 pages",
+        "worst_habit_completions": 1
+      },
+      "generated_at": "2026-09-18T10:52:48.807Z"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q-1",
+      "athlete_name": "Kobe Bryant",
+      "quote_text": "I have self-doubt. I have insecurity. I have fear of failure. I have nights when I show up at the arena and I'm like, \"My back hurts, my feet hurt, my knees hurt. I don't have it. I just want to chill.\" We all have self-doubt. You don't deny it, but you also don't capitulate to it. You embrace it.",
+      "tags": [
+        "discipline",
+        "consistency",
+        "resilience",
+        "hard_work"
+      ]
+    },
+    {
+      "id": "q-2",
+      "athlete_name": "Michael Jordan",
+      "quote_text": "I've missed more than 9,000 shots in my career. I've lost almost 300 games. Twenty-six times, I've been trusted to take the game-winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+      "tags": [
+        "resilience",
+        "comebacks",
+        "discipline"
+      ]
+    },
+    {
+      "id": "q-3",
+      "athlete_name": "Serena Williams",
+      "quote_text": "I really think a champion is defined not by their wins but by how they can recover when they fall.",
+      "tags": [
+        "resilience",
+        "comebacks",
+        "focus"
+      ]
+    },
+    {
+      "id": "q-4",
+      "athlete_name": "Muhammad Ali",
+      "quote_text": "I hated every minute of training, but I said, \"Don't quit. Suffer now and live the rest of your life as a champion.\"",
+      "tags": [
+        "discipline",
+        "hard_work",
+        "consistency"
+      ]
+    },
+    {
+      "id": "q-5",
+      "athlete_name": "Cristiano Ronaldo",
+      "quote_text": "Talent without working hard is nothing.",
+      "tags": [
+        "hard_work",
+        "discipline",
+        "consistency"
+      ]
+    },
+    {
+      "id": "q-6",
+      "athlete_name": "Simone Biles",
+      "quote_text": "I'd rather regret the risks that didn't work out than the chances I didn't take at all.",
+      "tags": [
+        "focus",
+        "resilience"
+      ]
+    },
+    {
+      "id": "q-7",
+      "athlete_name": "Eliud Kipchoge",
+      "quote_text": "Only the disciplined ones in life are free. If you are undisciplined, you are a slave to your moods and your passions.",
+      "tags": [
+        "discipline",
+        "consistency"
+      ]
+    },
+    {
+      "id": "q-8",
+      "athlete_name": "LeBron James",
+      "quote_text": "Nothing is given. Everything is earned. You work for what you have.",
+      "tags": [
+        "hard_work",
+        "discipline"
+      ]
+    },
+    {
+      "id": "q-9",
+      "athlete_name": "Michael Phelps",
+      "quote_text": "If you want to be the best, you have to do things that other people aren't willing to do.",
+      "tags": [
+        "hard_work",
+        "focus",
+        "consistency"
+      ]
+    },
+    {
+      "id": "q-10",
+      "athlete_name": "Usain Bolt",
+      "quote_text": "I trained 4 years to run 9 seconds, and people give up when they don't see results in 2 months.",
+      "tags": [
+        "consistency",
+        "discipline",
+        "resilience"
+      ]
+    },
+    {
+      "id": "q-11",
+      "athlete_name": "Tom Brady",
+      "quote_text": "To me, what really matters is what you do when no one is watching.",
+      "tags": [
+        "discipline",
+        "consistency",
+        "focus"
+      ]
+    },
+    {
+      "id": "q-12",
+      "athlete_name": "Megan Rapinoe",
+      "quote_text": "You have to stand up for what you believe in, even when your voice shakes and you stand alone.",
+      "tags": [
+        "teamwork",
+        "resilience",
+        "focus"
+      ]
+    }
+  ]
+}
