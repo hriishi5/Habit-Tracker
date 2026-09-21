@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
     "server": "cd server && node server.js",
     "client": "cd client && npm run dev",
     "test": "node server/test/api.test.js && node server/test/streakCalculator.test.js"
