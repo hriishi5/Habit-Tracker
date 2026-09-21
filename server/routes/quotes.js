@@ -2,7 +2,7 @@ import { Router } from "express";
 import { db } from "../lib/supabaseAdmin.js";
 import { requireAuth } from "../middleware/auth.js";
 import { motivateRateLimit } from "../middleware/rateLimit.js";
-import { aiNudgeResponseSchema } from "../../shared/schemas.js";
+import { aiNudgeResponseSchema } from "../schemas.js";
 import { generateJSON, COACH_MOMENTUM_SYSTEM_PROMPT } from "../lib/gemini.js";
 import { toDateString, shiftDays, calculateHabitStreak } from "../utils/streakCalculator.js";
 

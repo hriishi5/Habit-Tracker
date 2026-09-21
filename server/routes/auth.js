@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { signupSchema, loginSchema } from "../../shared/schemas.js";
+import { signupSchema, loginSchema } from "../schemas.js";
 import { db } from "../lib/supabaseAdmin.js";
 import { requireAuth } from "../middleware/auth.js";
 

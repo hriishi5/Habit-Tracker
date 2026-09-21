@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { taskSchema, taskUpdateSchema } from "../../shared/schemas.js";
+import { taskSchema, taskUpdateSchema } from "../schemas.js";
 import { db } from "../lib/supabaseAdmin.js";
 import { requireAuth } from "../middleware/auth.js";
 

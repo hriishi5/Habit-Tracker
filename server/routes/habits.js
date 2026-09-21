@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { habitSchema, habitUpdateSchema, checkinSchema } from "../../shared/schemas.js";
+import { habitSchema, habitUpdateSchema, checkinSchema } from "../schemas.js";
 import { db } from "../lib/supabaseAdmin.js";
 import { requireAuth } from "../middleware/auth.js";
 import { calculateHabitStreak, toDateString } from "../utils/streakCalculator.js";
