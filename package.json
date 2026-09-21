@@ -10,6 +10,6 @@
     "test": "node server/test/api.test.js && node server/test/streakCalculator.test.js"
   },
   "dependencies": {
-    "zod": "^3.23.8"
+    "zod": "^3.25.76"
   }
 }
