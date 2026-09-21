@@ -1,4 +1,8 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "/api";
+let rawBase = (import.meta.env.VITE_API_BASE_URL || "/api").trim().replace(/\/+$/, "");
+if (rawBase.startsWith("http") && !rawBase.endsWith("/api")) {
+  rawBase = `${rawBase}/api`;
+}
+const API_BASE = rawBase;
 
 export class ApiError extends Error {
   status: number;
