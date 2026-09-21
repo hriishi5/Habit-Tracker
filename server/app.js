@@ -10,8 +10,14 @@ import quotesRouter from "./routes/quotes.js";
 export function createApp() {
   const app = express();
 
+  const envOrigins = (process.env.CORS_ORIGIN || "")
+    .split(",")
+    .map(o => o.trim().replace(/\/$/, ""))
+    .filter(Boolean);
+
   const allowedOrigins = [
-    process.env.CORS_ORIGIN || "http://localhost:5173",
+    ...envOrigins,
+    "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173"
   ];
@@ -21,10 +27,15 @@ export function createApp() {
       origin: (origin, callback) => {
         // allow requests with no origin like mobile apps, curl, or server-to-server
         if (!origin) return callback(null, true);
-        if (allowedOrigins.includes(origin) || origin.startsWith("http://localhost:")) {
+        const normalized = origin.replace(/\/$/, "");
+        if (
+          allowedOrigins.includes(normalized) ||
+          origin.startsWith("http://localhost:") ||
+          origin.endsWith(".vercel.app")
+        ) {
           return callback(null, true);
         }
-        return callback(null, true); // Dev convenience
+        return callback(null, true); // Fallback
       },
       credentials: true
     })
